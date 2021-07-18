@@ -1,1 +1,1 @@
-web: gunicorn app:creditcard_app
+web: gunicorn creditcard_app:creditcard_app
