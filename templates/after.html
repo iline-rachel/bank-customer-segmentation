@@ -1,0 +1,31 @@
+<html>
+
+<body bgcolor=#FBD8DE>
+   
+         <center>
+                 
+                 <h1> PREDICTION :</h1>
+                 
+        {%if data == 0 %}
+        <h1>Customers have a great credit score</h1>
+        
+        {%elif data == 1 %}
+        <h1>Customers have a medium credit score </h1>
+        
+        {% elif data == 2 %}
+        <h1>Customers don't have a credit score</h1>
+        
+        {% else %}
+        <h1>Customers doesn't visit the bank</h1>
+        
+        {% endif %}
+        
+        <br><br>
+    <a href='/'>go back to home page</a>
+
+    </center>
+
+</body>
+
+</html>
+        
